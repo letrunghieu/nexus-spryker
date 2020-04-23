@@ -1,10 +1,20 @@
  #### Project setup
  
  ###### Docker setup
+ 
+ Without `docker-sync`
+ 
  ```
 $ cd docker
 $ ./setup.sh
  ```
+
+**Or** with `docker-sync`
+```
+$ sudo gem install docker-sync
+$ cd docker
+$ ./setup-docker-sync.sh
+```
 
 ###### Spryker setup
 ```

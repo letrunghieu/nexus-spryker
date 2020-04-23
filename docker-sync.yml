@@ -1,0 +1,10 @@
+version: "2"
+options:
+  project_root: 'config_path'
+syncs:
+  nxsacademy-app-sync:
+    src: './current'
+    sync_userid: '1000'
+    sync_groupid: '1000'
+    sync_excludes:
+      - 'node_modules'

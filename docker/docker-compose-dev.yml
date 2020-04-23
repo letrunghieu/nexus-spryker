@@ -1,0 +1,13 @@
+version: "2.0"
+services:
+  app:
+    volumes:
+      - nxsacademy-app-sync:/data/shop/development/current:nocopy
+
+  jenkins:
+    volumes:
+      - nxsacademy-app-sync:/data/shop/development/current:nocopy
+
+volumes:
+  nxsacademy-app-sync:
+    external: true
